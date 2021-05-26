@@ -1,7 +1,14 @@
 package practica;
+/**
+ * @author mint
+ *
+ */
 public class Main {
 
-
+	/**
+	 * 
+	 * @param args
+	 */
     public static void main(String[] args) {
 
         CCuenta cuentaUno;
@@ -20,7 +27,11 @@ public class Main {
         
 
     }
-
+    /**
+     * 
+     * @param cuentaUno
+     * @param cantidad
+     */
 	private static void operaCuenta(CCuenta cuentaUno, float cantidad) {
 		try {
 
